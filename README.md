@@ -1,2 +1,2 @@
 # webComunidad
-Sitio web de la comunidad
+Sitio web de la comunidad de Front End Chile.
