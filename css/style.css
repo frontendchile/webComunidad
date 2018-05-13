@@ -259,7 +259,10 @@ navigation section
         }
 }
 
-
+.logo-animation { transition: all .5s ease-in-out; }
+.logo-increase { transform:scale(0.4);     position: relative;
+    top: -50px;
+    left: -55px;}
 /* ==========================================================================
 home section
 ========================================================================== */

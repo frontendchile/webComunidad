@@ -49,7 +49,11 @@ jQuery(document).ready(function($){
       }); 
 
   }
-
+$('.navbar-collapse').on('shown.bs.collapse', function() {
+  $('.logo-animation').addClass('logo-increase');
+}).on('hidden.bs.collapse', function() {
+    $('.logo-animation').removeClass('logo-increase');
+});
 });
 
 
